@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+
+<h1>Movies</h1>
+
+<ol>
+    <% for (let movie of movies) { %>
+        <li><%= movie.title %></li>
+    <% } %>
+</ol>
+
+<%- include('../partials/footer') %>
